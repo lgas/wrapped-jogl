@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.jogamp.jogl-feature_2.3.2.qualifier.jar" id="com.jogamp.jogl-feature" version="2.3.2.qualifier">
+      <category name="jogl"/>
+   </feature>
+   <category-def name="jogl" label="JOGL"/>
+</site>

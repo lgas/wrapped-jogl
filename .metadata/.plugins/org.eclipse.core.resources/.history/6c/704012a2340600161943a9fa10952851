@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feature
+      id="com.jogamp.jogl-feature"
+      label="Jogl-feature"
+      version="2.3.2.qualifier"
+      provider-name="JOGAMPL">
+
+   <description url="http://www.example.com/description">
+      [Enter Feature Description here.]
+   </description>
+
+   <copyright url="http://www.example.com/copyright">
+      [Enter Copyright Description here.]
+   </copyright>
+
+   <license url="http://www.example.com/license">
+      [Enter License Description here.]
+   </license>
+
+   <plugin
+         id="com.jogamp.jogl"
+         download-size="0"
+         install-size="0"
+         version="2.3.2"/>
+
+   <plugin
+         id="com.jogamp.jogl-windows-amd64"
+         os="win32"
+         ws="win32"
+         arch="x86_64"
+         download-size="0"
+         install-size="0"
+         version="2.3.2"
+         fragment="true"/>
+
+   <plugin
+         id="com.jogamp.jogl-linux-amd64"
+         os="linux"
+         ws="gtk"
+         arch="x86_64"
+         download-size="0"
+         install-size="0"
+         version="2.3.2"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.jogamp.jogl-linux-i586"
+         os="linux"
+         ws="gtk"
+         arch="x86"
+         download-size="0"
+         install-size="0"
+         version="2.3.2"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.jogamp.jogl-windows-i586"
+         os="win32"
+         ws="win32"
+         arch="x86"
+         download-size="0"
+         install-size="0"
+         version="2.3.2"
+         fragment="true"
+         unpack="false"/>
+
+   <plugin
+         id="com.jogamp.jogl-macosx-universal"
+         os="macosx"
+         ws="cocoa"
+         arch="x86_64"
+         download-size="0"
+         install-size="0"
+         version="2.3.2"
+         fragment="true"
+         unpack="false"/>
+
+</feature>

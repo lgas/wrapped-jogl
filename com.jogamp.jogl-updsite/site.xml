@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<site>
+   <feature url="features/com.jogamp.jogl-feature_2.3.2.201604111526.jar" id="com.jogamp.jogl-feature" version="2.3.2.201604111526">
+      <category name="jogl"/>
+   </feature>
+   <category-def name="jogl" label="JOGL">
+      <description>
+         Wrap :: OSGI :: JOGL :: 2.3.2
+      </description>
+   </category-def>
+</site>

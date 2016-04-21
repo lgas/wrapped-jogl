@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 7 elements from project &apos;com.jogamp.jogl-windows-i586&apos;&#x0D;&#x0A;- Original project: &apos;com.jogamp.jogl-windows-i586&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     gluegen-rt.dll&#x0D;&#x0A;     jogl_desktop.dll&#x0D;&#x0A;     jogl_es1.dll&#x0D;&#x0A;     jogl_es2.dll&#x0D;&#x0A;     jogl_gl2es12.dll&#x0D;&#x0A;     nativewindow_awt.dll&#x0D;&#x0A;     newt.dll" description="Delete elements" element1="jogl_desktop.dll" element2="jogl_gl2es12.dll" element3="newt.dll" element4="jogl_es1.dll" element5="gluegen-rt.dll" element6="jogl_es2.dll" element7="nativewindow_awt.dll" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="7" stamp="1460021970885" subPackages="false" version="1.0"/>
+</session>

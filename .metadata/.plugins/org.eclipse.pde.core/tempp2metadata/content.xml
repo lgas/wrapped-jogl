@@ -1,0 +1,290 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<?metadataRepository version='1.1.0'?>
+<repository name='file:/C:/TEST/jogl/.metadata/.plugins/org.eclipse.pde.core/tempp2metadata - metadata' type='org.eclipse.equinox.internal.p2.metadata.repository.LocalMetadataRepository' version='1.0.0'>
+  <properties size='2'>
+    <property name='p2.timestamp' value='1460381199393'/>
+    <property name='p2.compressed' value='false'/>
+  </properties>
+  <units size='4'>
+    <unit id='com.jogamp.jogl-feature.feature.group' version='2.3.2.201604111526' singleton='false'>
+      <update id='com.jogamp.jogl-feature.feature.group' range='[0.0.0,2.3.2.201604111526)' severity='0'/>
+      <properties size='5'>
+        <property name='org.eclipse.equinox.p2.name' value='Jogl-feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JOGAMPL'/>
+        <property name='org.eclipse.equinox.p2.type.group' value='true'/>
+      </properties>
+      <provides size='1'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-feature.feature.group' version='2.3.2.201604111526'/>
+      </provides>
+      <requires size='7'>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl' range='[2.3.2,2.3.2]'/>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-windows-amd64' range='[2.3.2,2.3.2]'>
+          <filter>
+            (&amp;(osgi.arch=x86_64)(osgi.os=win32)(osgi.ws=win32))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-linux-amd64' range='0.0.0'>
+          <filter>
+            (&amp;(osgi.arch=x86_64)(osgi.os=linux)(osgi.ws=gtk))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-linux-i586' range='0.0.0'>
+          <filter>
+            (&amp;(osgi.arch=x86)(osgi.os=linux)(osgi.ws=gtk))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-macosx-universal' range='0.0.0'>
+          <filter>
+            (&amp;(osgi.os=macosx)(osgi.ws=cocoa)(|(osgi.arch=x86)(osgi.arch=x86_64)))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-windows-i586' range='0.0.0'>
+          <filter>
+            (&amp;(osgi.arch=x86)(osgi.os=win32)(osgi.ws=win32))
+          </filter>
+        </required>
+        <required namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-feature.feature.jar' range='[2.3.2.201604111526,2.3.2.201604111526]'>
+          <filter>
+            (org.eclipse.update.install.features=true)
+          </filter>
+        </required>
+      </requires>
+      <touchpoint id='null' version='0.0.0'/>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+    <unit id='com.jogamp.jogl' version='2.3.2' singleton='false'>
+      <update id='com.jogamp.jogl' range='[0.0.0,2.3.2)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Jogl'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Jogamp'/>
+      </properties>
+      <provides size='134'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl' version='2.3.2'/>
+        <provided namespace='osgi.bundle' name='com.jogamp.jogl' version='2.3.2'/>
+        <provided namespace='java.package' name='com.jogamp.common' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.jvm' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.net' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.net.asset' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.nio' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.os' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.type' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.util.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.util.cache' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.common.util.locks' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.gluegen.runtime' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.gluegen.runtime.opengl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.graph.curve' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.graph.curve.opengl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.graph.curve.tess' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.graph.font' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.graph.geom' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.nativewindow' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.nativewindow.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.nativewindow.egl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.nativewindow.macosx' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.nativewindow.swt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.nativewindow.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.nativewindow.windows' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.nativewindow.x11' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.awt.applet' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.event' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.event.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.opengl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.opengl.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.opengl.util.stereo' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.swt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.newt.util.applet' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.egl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.fixedfunc' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.glu' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.glu.gl2' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.glu.gl2es1' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.math' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.math.geom' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.swt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.av' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.gl2' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.glsl' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.glsl.fixedfunc' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.glsl.sdk' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.packrect' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.stereo' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.stereo.generic' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.texture' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.texture.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.texture.spi' version='0.0.0'/>
+        <provided namespace='java.package' name='com.jogamp.opengl.util.texture.spi.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.common' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.common.jvm' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.common.os' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.common.os.elf' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.common.util' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.common.util.locks' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.curve.opengl' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.curve.opengl.shader' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.curve.tess' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.font' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.font.typecast' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.font.typecast.ot' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.font.typecast.ot.mac' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.font.typecast.ot.table' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.font.typecast.t2' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.font.typecast.tt.engine' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.graph.geom.plane' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow.jawt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow.jawt.macosx' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow.jawt.windows' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow.jawt.x11' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow.macosx' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow.windows' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow.x11' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.nativewindow.x11.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.awt.event' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.driver' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.driver.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.driver.bcm.vc.iv' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.driver.linux' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.driver.macosx' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.driver.opengl' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.driver.windows' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.driver.x11' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.event' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.swt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.newt.swt.event' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.egl' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.es1' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.es3' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.gl2' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.gl4' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.glu' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.glu.error' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.glu.gl2.nurbs' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.glu.mipmap' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.glu.nurbs' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.glu.registry' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.glu.tessellator' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.macosx.cgl' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.macosx.cgl.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.openal.av' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.util' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.util.av' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.util.av.impl' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.util.glsl' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.util.glsl.fixedfunc' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.util.jpeg' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.util.pngj' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.util.pngj.chunks' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.util.stereo' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.windows.wgl' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.windows.wgl.awt' version='0.0.0'/>
+        <provided namespace='java.package' name='jogamp.opengl.x11.glx' version='0.0.0'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      </provides>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jogamp.jogl' version='2.3.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jogamp.jogl&#xA;Bundle-Version: 2.3.2
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jogamp.jogl-windows-amd64' version='2.3.2' singleton='false'>
+      <update id='com.jogamp.jogl-windows-amd64' range='[0.0.0,2.3.2)' severity='0'/>
+      <properties size='2'>
+        <property name='org.eclipse.equinox.p2.name' value='Jogl-windows-amd64'/>
+        <property name='org.eclipse.equinox.p2.provider' value='Jogamp'/>
+      </properties>
+      <provides size='4'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-windows-amd64' version='2.3.2'/>
+        <provided namespace='osgi.bundle' name='com.jogamp.jogl-windows-amd64' version='2.3.2'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+        <provided namespace='osgi.fragment' name='com.jogamp.jogl' version='2.3.2'/>
+      </provides>
+      <requires size='1'>
+        <required namespace='osgi.bundle' name='com.jogamp.jogl' range='2.3.2'/>
+      </requires>
+      <filter>
+        (&amp;(osgi.arch=x86_64)(osgi.os=win32))
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='osgi.bundle' id='com.jogamp.jogl-windows-amd64' version='2.3.2'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='2'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+          <instruction key='manifest'>
+            Bundle-SymbolicName: com.jogamp.jogl-windows-amd64&#xA;Bundle-Version: 2.3.2&#xA;Fragment-Host: com.jogamp.jogl;bundle-version=&quot;2.3.2&quot;
+          </instruction>
+        </instructions>
+      </touchpointData>
+    </unit>
+    <unit id='com.jogamp.jogl-feature.feature.jar' version='2.3.2.201604111526'>
+      <properties size='4'>
+        <property name='org.eclipse.equinox.p2.name' value='Jogl-feature'/>
+        <property name='org.eclipse.equinox.p2.description' value='[Enter Feature Description here.]'/>
+        <property name='org.eclipse.equinox.p2.description.url' value='http://www.example.com/description'/>
+        <property name='org.eclipse.equinox.p2.provider' value='JOGAMPL'/>
+      </properties>
+      <provides size='3'>
+        <provided namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-feature.feature.jar' version='2.3.2.201604111526'/>
+        <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='feature' version='1.0.0'/>
+        <provided namespace='org.eclipse.update.feature' name='com.jogamp.jogl-feature' version='2.3.2.201604111526'/>
+      </provides>
+      <filter>
+        (org.eclipse.update.install.features=true)
+      </filter>
+      <artifacts size='1'>
+        <artifact classifier='org.eclipse.update.feature' id='com.jogamp.jogl-feature' version='2.3.2.201604111526'/>
+      </artifacts>
+      <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+      <touchpointData size='1'>
+        <instructions size='1'>
+          <instruction key='zipped'>
+            true
+          </instruction>
+        </instructions>
+      </touchpointData>
+      <licenses size='1'>
+        <license uri='http://www.example.com/license' url='http://www.example.com/license'>
+          [Enter License Description here.]
+        </license>
+      </licenses>
+      <copyright uri='http://www.example.com/copyright' url='http://www.example.com/copyright'>
+        [Enter Copyright Description here.]
+      </copyright>
+    </unit>
+  </units>
+</repository>

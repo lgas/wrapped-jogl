@@ -1,0 +1,36 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<units size='1'>
+  <unit id='com.jogamp.jogl-linux-i586' version='2.3.2' singleton='false'>
+    <update id='com.jogamp.jogl-linux-i586' range='[0.0.0,2.3.2)' severity='0'/>
+    <properties size='5'>
+      <property name='org.eclipse.equinox.p2.name' value='Jogl-linux-i586'/>
+      <property name='org.eclipse.equinox.p2.provider' value='Jogamp'/>
+      <property name='maven-groupId' value='com.trmsys.osgi'/>
+      <property name='maven-artifactId' value='com.jogamp.jogl-linux-i586'/>
+      <property name='maven-version' value='2.3.2'/>
+    </properties>
+    <provides size='4'>
+      <provided namespace='org.eclipse.equinox.p2.iu' name='com.jogamp.jogl-linux-i586' version='2.3.2'/>
+      <provided namespace='osgi.bundle' name='com.jogamp.jogl-linux-i586' version='2.3.2'/>
+      <provided namespace='org.eclipse.equinox.p2.eclipse.type' name='bundle' version='1.0.0'/>
+      <provided namespace='osgi.fragment' name='com.jogamp.jogl' version='2.3.2'/>
+    </provides>
+    <requires size='1'>
+      <required namespace='osgi.bundle' name='com.jogamp.jogl' range='2.3.2'/>
+    </requires>
+    <filter>
+      (&amp;(osgi.arch=x86)(osgi.os=linux))
+    </filter>
+    <artifacts size='1'>
+      <artifact classifier='osgi.bundle' id='com.jogamp.jogl-linux-i586' version='2.3.2'/>
+    </artifacts>
+    <touchpoint id='org.eclipse.equinox.p2.osgi' version='1.0.0'/>
+    <touchpointData size='1'>
+      <instructions size='1'>
+        <instruction key='manifest'>
+          Bundle-SymbolicName: com.jogamp.jogl-linux-i586&#xA;Bundle-Version: 2.3.2&#xA;Fragment-Host: com.jogamp.jogl;bundle-version=&quot;2.3.2&quot;&#xA;
+        </instruction>
+      </instructions>
+    </touchpointData>
+  </unit>
+</units>

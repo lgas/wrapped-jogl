@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 8 elements from project &apos;com.jogamp.jogl-linux-i586&apos;&#x0D;&#x0A;- Original project: &apos;com.jogamp.jogl-linux-i586&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     libgluegen-rt.so&#x0D;&#x0A;     libjogl_desktop.so&#x0D;&#x0A;     libjogl_es1.so&#x0D;&#x0A;     libjogl_es2.so&#x0D;&#x0A;     libjogl_gl2es12.so&#x0D;&#x0A;     libnativewindow_awt.so&#x0D;&#x0A;     libnativewindow_x11.so&#x0D;&#x0A;     libnewt.so" description="Delete elements" element1="libjogl_gl2es12.so" element2="libjogl_es2.so" element3="libnativewindow_x11.so" element4="libjogl_desktop.so" element5="libnativewindow_awt.so" element6="libnewt.so" element7="libjogl_es1.so" element8="libgluegen-rt.so" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="8" stamp="1460021664810" subPackages="false" version="1.0"/>
+</session>
